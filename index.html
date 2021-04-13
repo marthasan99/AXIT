@@ -126,13 +126,13 @@
         <div class="tabs-item">
           <div class="row">
             <div class="col-md-1">
-              <div class="box">
+              <div class="box2 t-1">
                 <p>TAB1</p>
               </div>
-              <div class="box2">
+              <div class="box2 t-2">
                 <p>TAB2</p>
               </div>
-              <div class="box2">
+              <div class="box2 t-3">
                 <p>TAB3</p>
               </div>
             </div>
@@ -140,14 +140,36 @@
               
             </div>
             <div class="col-md-5">
-              <h1 class="tabs-hd">Tabs with soft transitioning effect.</h1>
-              <p class="tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua..</p> 
-              <p class="tabs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident.</p>
-              <button class="tabs-btn">Download</button>
+              <div class="tab-content-1">
+                <h1 class="tabs-hd">Tabs with soft transitioning effect.1111111</h1>
+                <p class="tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua..</p> 
+                <p class="tabs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident.</p>
+                <button class="tabs-btn">Download</button>
+              </div>
+              <div class="tab-content-2">
+                <h1 class="tabs-hd">Tabs with soft transitioning effect.22222222</h1>
+                <p class="tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua..</p> 
+                <p class="tabs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident.</p>
+                <button class="tabs-btn">Download</button>
+              </div>
+              <div class="tab-content-3">
+                <h1 class="tabs-hd">Tabs with soft transitioning effect.333333</h1>
+                <p class="tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua..</p> 
+                <p class="tabs-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident.</p>
+                <button class="tabs-btn">Download</button>
+              </div>
             </div>
             <div class="col-md-1">
               
@@ -274,6 +296,61 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <div class="container">
+        <div class="pricing-item">
+          <div class="awesome-item">
+          <h1>Pricing Option</h1>
+          <div class="line3">
+            
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div class="row price">
+            <div class="col-md-4 price1">
+              <h6>Basic</h6>
+              <p>$<span class="price-0">0</span>
+              <p class="price-free">Free for Life</p>
+              <ul>
+                <li>1 GB OF SPACE</li>
+                <li>10 GB OF BANDWIDTH</li>
+                <li>3 WEBSITES</li>
+                <li>BASIC CUSTOMIZATION</li>
+                <li>WORDPRESS INTREGRATION</li>
+                <li>EMAIL SUPPORT</li>
+              </ul>
+            </div>
+            <div class="col-md-4 price1">
+              <h6>Professional</h6>
+              <p>$<span class="price-0">19</span>
+              <p class="price-free">Monthly Payment</p>
+              <p class="popular">Our Most Popular</p>
+              <ul>
+                <li>5 GB OF SPACE</li>
+                <li>50 GB OF BANDWIDTH</li>
+                <li>12 WEBSITES</li>
+                <li>ADVANCED CUSTOMIZATION</li>
+                <li>WORDPRESS INTREGRATION</li>
+                <li>EMAIL SUPPORT</li>
+              </ul>
+            </div>
+            <div class="col-md-4 price1">
+              <h6>Enterprise</h6>
+              <p>$<span class="price-0">70</span>
+              <p class="price-free">Monthly Payment</p>
+              <ul>
+                <li>UNLIMITED SPACE</li>
+                <li>UNLIMITED BANDWIDTH</li>
+                <li>100 WEBSITES</li>
+                <li>BASIC CUSTOMIZATION</li>
+                <li>WORDPRESS INTREGRATION</li>
+                <li>24/7 CUSTOMER SUPPORT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </section>
@@ -407,6 +484,65 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+
+    <script type="">
+      window.addEventListener('scroll',function(){
+        var header = document.querySelector('.header');
+        header.classList.toggle('sticky',window.scrollY>0);
+      })
+
+
+
+      //jquery
+      $(document).ready(function(){
+        $('.tab-content-2').hide();
+        $('.tab-content-3').hide();
+        $('.tab-content-1').show();
+        $('.t-1').addClass('box').removeClass('box2');
+
+        $('.t-1').on('click',function(){
+          $('.tab-content-2').hide();
+          $('.tab-content-3').hide();
+          $('.tab-content-1').show();
+
+
+          $('.t-1').addClass('box').removeClass('box2');
+          $('.t-2').addClass('box2').removeClass('box');
+          $('.t-3').addClass('box2').removeClass('box');
+        });
+        $('.t-2').on('click',function(){
+          $('.tab-content-2').show();
+          $('.tab-content-3').hide();
+          $('.tab-content-1').hide();
+
+
+          $('.t-2').addClass('box').removeClass('box2');
+          $('.t-3').addClass('box2').removeClass('box');
+          $('.t-1').addClass('box2').removeClass('box');
+
+        });
+        $('.t-3').on('click',function(){
+          $('.tab-content-2').hide();
+          $('.tab-content-3').show();
+          $('.tab-content-1').hide();
+
+
+          $('.t-3').addClass('box').removeClass('box2');
+          $('.t-1').addClass('box2').removeClass('box');
+          $('.t-2').addClass('box2').removeClass('box');
+        });
+
+
+      });
+
+
+    </script>
+
+
   </body>
 </html>
 
