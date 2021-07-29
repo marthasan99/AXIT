@@ -1,0 +1,162 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+  
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner-left{
+    text-align: center;
+  }
+  .line{
+    margin-left: 36%;
+  }
+  .card{
+    max-width: 100%;
+  }
+  .social-item h2{
+    padding-top: 35px;
+    text-align: center;
+  }
+  .social-item p{
+    text-align: center;
+  }
+  .social-item a{
+    margin-right: 6px;
+  }
+  .tab-box{
+    display: flex;
+  }
+  .tabs-hd{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .tabs-text{
+    text-align: center;
+  }
+  .box, .box2, .box3{
+    width: 138px;
+  }
+  .tabs-btn{
+    margin-left: 100px;
+  }
+  .tabs-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .tab-img2{
+    order: -1;
+  }
+  .tabs{
+    padding-top: 12px;
+  }
+  img{
+    max-width: 100%;
+  }
+  .line3{
+    display: none;
+  }
+  .list-item h1{
+    text-align: center;
+  }
+  .line2{
+    margin-left: 42%;
+  }
+  .list-item p{
+    text-align: center;
+  }
+  .circle{
+    left: 162px;
+  }
+  .s-text h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .p-sec-item h1{
+    text-align: center;
+  }
+  .p-sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .list{
+    padding-bottom: 50px;
+  }
+  .p-sec-item p{
+    text-align: center;
+  }
+  .awesome-grid{
+    margin-top: 50px;
+  }
+  .awe-grid1 p{
+    padding-bottom: 20px;
+  }
+  .awesome{
+    margin-bottom: 50px;
+  }
+  .box, .box2, .box3{
+    width: 320px;
+  }
+  .form1 input{
+    padding-right: 132px;
+  }
+  .form2 input{
+    padding-right: 132px;
+  }
+}
