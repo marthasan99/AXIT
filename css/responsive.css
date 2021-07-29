@@ -49,7 +49,90 @@
 @media (min-width: 481px) and (max-width: 767px) {
   
   
-
+  
+  .banner{
+    padding-top: 20px;
+    height: 160vh;
+  }
+  .banner p{
+    text-align: center;
+  }
+  .banner img{
+    text-align: center;
+  }
+  .container{
+    margin-left: 0px;
+  }
+  .banner-left{
+    text-align: center;
+  }
+  .line{
+    margin-left: 200px;
+  }
+  .social-item h2{
+    font-size: 15px;
+    padding-top: 35px;
+    text-align: center;
+  }
+  .social-item p{
+    text-align: center;
+  }
+  .social-item a{
+    margin-right: 30px;
+  }
+  .tab-box{
+    display: flex;
+  }
+  .tabs-hd{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .tabs-text{
+    text-align: center;
+  }
+  .tabs-btn{
+    margin-left: 100px;
+  }
+  .tabs-img{
+    margin-top: 20px;
+  }
+  .tabs-img2{
+    order: -1;
+  }
+  .list h1{
+    text-align: center;
+  }
+  .list p{
+    text-align: center;
+  }
+  .circle{
+    left: 244px;
+  }
+  .s-text h2{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .line2{
+    margin-left:230px;
+  }
+  .p-sec{
+    text-align: center;
+  }
+  .circle2{
+    left: 234px;
+  }
+  .awe-grid1 p{
+    margin-bottom: 2rem;
+  }
+  .line3{
+    margin-left: 225px;
+  }
+  .box3{
+    width: 466px;
+  }
+  .box .box2{
+    width: 200px;
+  }
 
 }
 /* 
@@ -150,7 +233,7 @@
   .awesome{
     margin-bottom: 50px;
   }
-  .box, .box2, .box3{
+  .box, .box2{
     width: 320px;
   }
   .form1 input{
