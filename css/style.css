@@ -28,6 +28,9 @@
 	font-family: 'Open Sans', sans-serif;
 
 }
+.navbar-toggler i{
+	color: white;
+}
 .banner{
 	background: url(../img/banner-bg.png);
 	background-size: cover;
@@ -207,7 +210,13 @@
 	vertical-align: middle;
 	position: relative;
 }
+.list-icon img{
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	padding: 20px;
+}
 .circle{
+	display: hidden;
 	height: 50px;
 	width: 50px;
 	border: 2px solid #ff8b38;
@@ -262,6 +271,11 @@
 }
 .awe-grid1{
 	position: relative;
+}
+.awe-grid1 img{
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+	padding: 30px;
 }
 .circle2{
 	height: 75px;
